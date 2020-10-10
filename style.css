@@ -1,0 +1,115 @@
+body {
+	background-color: #FFF1E0;
+}
+
+.container {			
+	width: 850px;
+	margin: auto;
+	padding: 15px;
+	text-align: center;
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 400;
+}
+
+#title {
+	font-family: 'Sansita', sans-serif;
+	font-weight: 800;
+	font-size: 40px;
+}
+
+.text {
+	margin: 10px;
+	text-align: left;
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	margin: 30px;
+	padding: 30px;
+	box-shadow: 0px 15px 30px rgb(0,0,0,0.15);
+}
+
+.horizontal-list li {
+	display: inline;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: #6693FD;
+	color: white;
+	font-size: 	25px;
+	padding: 10px 20px;
+	border-radius: 10%;
+	margin: 15px;
+}
+
+.btn-blue:hover {
+	background-color: red;
+	color: black;
+	padding: 15px 20px;
+}
+
+#footer {
+	font-size: 	20px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+#intro p {
+	margin-bottom: 40px;
+}
+
+
+
+/* Media queries @media (max-width:....)00 condition */
+
+/* Structure with div... to create different section in the page
+div enables to create a box with width and height
+-- taking into account margin ++ padding
+-- border draw solid or dashed or dots...
+-- Create border radius
+-- Shadow boxes (vertical and horizontoal ships and all)
+-- different units % absolute em size of the font
+-- Classic div copy fro the note
+-- keyowrd auto (same margin left right)
+--- Set wodth and after automatic value
+
+--- Bonus do not forget the icons
+*/
+
+/* Use id and classes to select different div, specific divs to use
+Using id and class, and starts with #... resizing image
+class to group and do reusable design class starts with "."...!! class is for style groups
+
+Important to choose good class names, for background or boton... think very grafically, put a name of class to adjust the design
+convention .element-design...
+
+select id banner and a specific object selector, remember hover...
+
+The most specific always wins, class < id (selector more selective more powerful)
+*/ 
+
+/*Custom design with class container */
